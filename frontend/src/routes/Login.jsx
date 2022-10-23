@@ -15,8 +15,18 @@ const Login = () => {
   const onChangeHandler = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
-  
-  
+  useEffect(() => {
+    if (email) {
+      setFocusEmail(true);
+    } else {
+      setFocusEmail(false);
+    }
+    if (password) {
+      setFocusPassword(true);
+    } else {
+      setFocusPassword(false);
+    }
+  }, [email, password]);
   return (
     <div className="signup-section sign-in-section">
       <div className="signup-wrapper signin-wrapper">
