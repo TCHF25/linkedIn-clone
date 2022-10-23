@@ -10,7 +10,6 @@ import { ReactComponent as Event } from "../assets/svg/event-icon.svg";
 import { ReactComponent as Article } from "../assets/svg/article-icon.svg";
 import { ReactComponent as ChevronUp } from "../assets/svg/ChevronUp.svg";
 import { ReactComponent as ChevronDown } from "../assets/svg/ChevronDown.svg";
-
 import NewsListItem from "../components/NewsListItem";
 import Footer from "../components/Footer";
 import PromotionListItem from "../components/PromotionListItem";
